@@ -23,7 +23,6 @@ figure{
 }
 a{
 	text-decoration:none;
-	color:white;
 }
 button{
 	font-family: Cabin;
@@ -189,11 +188,13 @@ button{
 .secondary2-bg{background-color:#99957a}
 .accent1-bg{background-color:#346c22}
 .accent2-bg{background-color:#c6834b}
+.neutral-bg{background-color:#BBBDC0}
 .primary{color:#408377} /*tealish */
 .secondary1{color:#646979} /*battleship */
 .secondary2{color:#99957a}/*desert sand*/
 .accent1{color:#346c22} /*forest green */
 .accent2{color:#c6834b}/*orange-brown*/
+.neutral{color:#BBBDC0}/*sea-grey*/
 .black{color:#170000}
 .shadow{box-shadow: 0 3px rgba(0,0,0,0.2)}
 .shadow2{box-shadow: 0px 2px rgba(0,0,0,0.2)}
