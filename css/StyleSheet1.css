@@ -22,7 +22,8 @@ figure{
 	color:#170000;
 }
 a{
-	text-decoration:none;
+	color:#170000;
+	text-decoration: underline;
 }
 button{
 	font-family: Cabin;
@@ -31,6 +32,7 @@ button{
 	border:1px #666 solid;
 	/*min-height: 44px;*/
 }
+
 .friend{
 	text-align:center;
 }
@@ -46,6 +48,8 @@ button{
 	bottom:40px;
 	height:60px;
 	width:120px;
+	background-color: #646979;
+
 }
 .map{
 	overflow-x: scroll;
@@ -64,7 +68,8 @@ button{
 	position:fixed;
 	top:0;
 	z-index:2;
-	background-color: #ffffff;
+	background-color:#c6834b;
+	padding:5px 20px;
 }
 #friendStaging{
 	height:0;

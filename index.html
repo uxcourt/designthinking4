@@ -70,10 +70,10 @@
 			<figure>Venkat</figure>
 		</div>
 	</div>
-	<div class="row right"><a href="#" class="accent1">more&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></div>
+	<div class="row right" style="margin-right:15px"><a href="#">more</a></div>
 	<div class="row center" style="width: 100%;
     padding-left: 15px;">
-		<button class="connectButton secondary2-bg black shadow2" disabled onclick="javascript:window.location.href='map.html'+'?fc='+friendCount + '&fns='+ friendNames">INVITE</button>
+		<button class="connectButton black shadow2" disabled onclick="javascript:window.location.href='map.html'+'?fc='+friendCount + '&fns='+ friendNames">INVITE</button>
 	</div>
 </DIV>
 
@@ -96,10 +96,18 @@
 	});
 function checkForSelection(){
 	if(friendCount>0){
-		$(".connectButton").attr( "disabled", false);
-	}
+		$(".connectButton").attr("disabled", false);
+		$(".connectButton").hover(function() {
+  			$(".connectButton").css("background-color","#c6834b")
+  			});
+		$(".connectButton").mouseleave(function() {
+  			$(".connectButton").css("background-color","#408377")
+  			})
+		$(".connectButton").css("background-color","#408377");
+		}
 	else{
 		$(".connectButton").attr( "disabled", true );
+		$(".connectButton").css("background-color","#646979");
 	}
 	}
 
