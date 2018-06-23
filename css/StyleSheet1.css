@@ -18,7 +18,12 @@ font-weight: 400;
 figure{
 	font-family: 'Raleway', sans-serif;
 	font-variant: italic;
-	font-size: .8rem
+	font-size: 0.85rem
+	color:#170000;
+}
+a{
+	text-decoration:none;
+	color:white;
 }
 button{
 	font-family: Cabin;
@@ -32,7 +37,6 @@ button{
 }
 .app-panel{max-width:400px;}
 .center{
-	width:100%;
 	text-align:center;
 	justify-content: center;
 }
@@ -41,6 +45,8 @@ button{
 .connectButton{
 	position:fixed;
 	bottom:40px;
+	height:60px;
+	width:120px;
 }
 .map{
 	overflow-x: scroll;
@@ -178,3 +184,16 @@ button{
     top: 9px;
     left: 93%;
 }
+.primary-bg{background-color:#408377}
+.secondary1-bg{background-color:#646979}
+.secondary2-bg{background-color:#99957a}
+.accent1-bg{background-color:#346c22}
+.accent2-bg{background-color:#c6834b}
+.primary{color:#408377} /*tealish */
+.secondary1{color:#646979} /*battleship */
+.secondary2{color:#99957a}/*desert sand*/
+.accent1{color:#346c22} /*forest green */
+.accent2{color:#c6834b}/*orange-brown*/
+.black{color:#170000}
+.shadow{box-shadow: 0 3px rgba(0,0,0,0.2)}
+.shadow2{box-shadow: 0px 2px rgba(0,0,0,0.2)}

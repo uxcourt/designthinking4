@@ -9,13 +9,13 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
-	<script src="scripts/connect.js"></script>
 	<link type="text/css" rel="stylesheet" href="css/StyleSheet1.css" />
 	<title>Connect</title>
 </head>
-<body>
+<body class="primary-bg">
 <DIV class="container app-panel">
-	<div class="row center"><h1>Connect with</h1></div>
+	<div class="row center accent2-bg black shadow"><h1>Connect</h1></div>
+	<div class="row">&nbsp;</div>
 	<div class="row">
 		<div class="col friend">
 			<img src="images/icons/friend.png">
@@ -27,11 +27,11 @@
 		</div>
 		<div class="col friend">
 			<img src="images/icons/friend.png">
-			<figure>Thelonius</figure>
+			<figure>Maceo</figure>
 		</div>
 		<div class="col friend">
 			<img src="images/icons/friend.png">
-			<figure>Hermione</figure>
+			<figure>Tess</figure>
 		</div>
 	</div>
 	<div class="row">
@@ -63,7 +63,7 @@
 		</div>
 		<div class="col friend">
 			<img src="images/icons/friend.png">
-			<figure>Maceo</figure>
+			<figure>Thelonius</figure>
 		</div>
 		<div class="col friend">
 			<img src="images/icons/friend.png">
@@ -71,8 +71,9 @@
 		</div>
 	</div>
 	<div class="row right"><a href="#">more&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></div>
-	<div class="row center">
-		<button class="connectButton" disabled onclick="javascript:window.location.href='map.html'+'?fc='+friendCount + '&fns='+ friendNames">CONNECT</button>
+	<div class="row center" style="width: 100%;
+    padding-left: 15px;">
+		<button class="connectButton secondary2-bg black shadow2" disabled onclick="javascript:window.location.href='map.html'+'?fc='+friendCount + '&fns='+ friendNames">INVITE</button>
 	</div>
 </DIV>
 
