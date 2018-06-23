@@ -90,7 +90,7 @@ function dragImg(e) {
 }
 function stopDrag() {
 	drag=false;
-	$("#newMeeting")[0].style.height="110px";//animates the appearance of the confirmation
+	$("#newMeeting")[0].style.height="130px";//animates the appearance of the confirmation
 }
 
 function no2MeetingMoveConf(){
