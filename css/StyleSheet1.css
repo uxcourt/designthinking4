@@ -33,7 +33,7 @@ button{
 .friend{
 	text-align:center;
 }
-.app-panel{max-width:400px;}
+.app-panel{max-width:411px;padding:0;}
 .center{
 	text-align:center;
 	justify-content: center;
@@ -83,7 +83,7 @@ button{
 #friendStaging img, #friendStaging div {
 	position:absolute;
 }
-#mapPlus{position:relative;overflow:scroll;width:411px;}
+#mapPlus{position:relative;overflow:scroll;}
 #map img {position:absolute;}
 #map {overflow: hidden;}
 .fDetail{height:50px;width:100px;background-color: #ffffff;text-align: center;padding-top:.8em;display: none;}
