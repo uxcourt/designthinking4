@@ -28,11 +28,8 @@ a{
 button{
 	font-family: Cabin;
 	font-weight: 900;
-	background-color: #ffffff;
-	border:1px #666 solid;
-	/*min-height: 44px;*/
+	border:1px #170000 solid;
 }
-
 .friend{
 	text-align:center;
 }
@@ -60,16 +57,25 @@ button{
 #timer{
 	text-align:right;
 	float:right;
-	margin-right:20px;
+	font-size: 1.6rem;
+	margin-top: -5px;
+	font-family: "cabin";
 }
 #timerRow{
 	width:411px;
-	height:44px;
+	height:55px;
 	position:fixed;
 	top:0;
 	z-index:2;
 	background-color:#c6834b;
-	padding:5px 20px;
+	padding:12px 20px;
+}
+#timerRow button, #newMeeting button{
+	background-color: #408377;
+}
+
+#timerRow button:hover, #newMeeting button:hover {
+	background-color: #99957a;
 }
 #friendStaging{
 	height:0;
@@ -133,16 +139,16 @@ button{
     left: 323px;}
 #f12{width:25px;height:25px;top:60px;left:3060px;}
 #f12Detail{top:-232px;left:300px;}
-#meeting{    top: 389px;
+#meeting{ top: 389px;
     left: 340px;}
 #newMeeting{
 	width: 411px;
 	height:0px;
 	transition: height 1s ease-in-out;
 	position:fixed;
-	bottom:0px;
+	bottom:-20px;
 	margin-left:"-15px";
-	background-color: #ffffff;
+	padding:10px;
 }
 #proposeTime, #meetingChangeOverlay{
 	position:absolute;
@@ -153,7 +159,6 @@ button{
 	z-index:4;
 	display:none;
 }
-
 #timePanel, #meetingChange{
 	display:block;
 	position:relative;
@@ -201,5 +206,6 @@ button{
 .accent2{color:#c6834b}/*orange-brown*/
 .neutral{color:#BBBDC0}/*sea-grey*/
 .black{color:#170000}
-.shadow{box-shadow: 0 3px rgba(0,0,0,0.2)}
-.shadow2{box-shadow: 0px 2px rgba(0,0,0,0.2)}
+.shadow1{box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)}
+.shadow2{box-shadow: 0 1rem 1rem rgba(0,0,0,0.15)}
+.shadowTop{box-shadow: 0 -.5rem 1rem rgba(0,0,0,0.15)}
