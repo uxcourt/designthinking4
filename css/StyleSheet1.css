@@ -70,11 +70,11 @@ button{
 	background-color:#c6834b;
 	padding:12px 20px;
 }
-#timerRow button, #newMeeting button{
+#timerRow button, #newMeeting button, #timePanel button{
 	background-color: #408377;
 }
 
-#timerRow button:hover, #newMeeting button:hover {
+#timerRow button:hover, #newMeeting button:hover, #timePanel button:hover {
 	background-color: #99957a;
 }
 #friendStaging{
@@ -156,7 +156,7 @@ button{
 	top:0;
     width: 411px;
     height: 714px;
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.4);
 	z-index:4;
 	display:none;
 }
@@ -167,19 +167,27 @@ button{
 	top:244px;
 	z-index:5;
 	width:250px;
-	height:170px;
-	background-color: #ffffff;
-	padding:20px;
+	height:200px;
+	/*background-color: #99957a;*/
+	background-color: #BBBDC0;	
+	padding:25px;
+	font-size:1.2rem;
 }
 #meetingChange{
 	height: 240px;
 }
-#timerControls input{
-	width:40px;
-	margin-left:81px;
+#minutes{
+	width:50px;
+	/* 	margin-left:81px;*/
+}
+#minuteRange{
+	    width: 145px;
+}
+#timerControls{
+		padding: 1rem 0;
 }
 #timePanel button{
-	margin-top:20px;
+	font-size:1rem;
 }
 #timePanel button:last-of-type{
 	float:right;

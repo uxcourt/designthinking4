@@ -110,3 +110,6 @@ function changeTimerValue(i){
 	timer();
 	$("#proposeTime").css("display","none");
 }
+function range2Minutes(){
+	 $("#minutes")[0].value=$("#minuteRange")[0].value;
+}
