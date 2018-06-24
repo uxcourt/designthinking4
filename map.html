@@ -40,7 +40,7 @@
 			<div>How many minutes from now?</div>
 
 			<div id="timerControls">
-				<input type="range" id="minuteRange" min="0" max="180" step="5" value="30" onchange=range2Minutes()>
+				<input type="range" id="minuteRange" min="0" max="180" step="5" value="30" onchange="range2Minutes()">
 				<span class="timeValue minutes"><input type='number' value="30" id="minutes"></span>
 			</div>
 			<button onclick=javascript:$("#proposeTime").css("display","none");>CANCEL</button>

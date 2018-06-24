@@ -70,7 +70,7 @@
 			<figure>Venkat</figure>
 		</div>
 	</div>
-	<div class="row right" style="margin-right:15px"><a href="#">more</a></div>
+	<div class="row right" style="margin-right:15px"><a href="javascript:alert('This will open your contacts application.')">more</a></div>
 	<div class="row center" style="width: 100%;
     padding-left: 15px;">
 		<button class="connectButton black shadow2" disabled onclick="javascript:window.location.href='map.html'+'?fc='+friendCount + '&fns='+ friendNames">INVITE</button>
@@ -98,7 +98,7 @@ function checkForSelection(){
 	if(friendCount>0){
 		$(".connectButton").attr("disabled", false);
 		$(".connectButton").hover(function() {
-  			$(".connectButton").css("background-color","#c6834b")
+  			$(".connectButton").css("background-color","#99957a")
   			});
 		$(".connectButton").mouseleave(function() {
   			$(".connectButton").css("background-color","#408377")
@@ -108,7 +108,7 @@ function checkForSelection(){
 	else{
 		$(".connectButton").attr( "disabled", true );
 		$(".connectButton").css("background-color","#646979");
-	}
+		}
 	}
 
 </script>
