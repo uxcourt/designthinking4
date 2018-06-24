@@ -86,7 +86,14 @@ button{
 #mapPlus{position:relative;overflow:scroll;}
 #map img {position:absolute;}
 #map {overflow: hidden;}
-.fDetail{height:50px;width:100px;background-color: #ffffff;text-align: center;padding-top:.8em;display: none;}
+.fDetail{
+	height:50px;
+	width:100px;
+	background-color: transparent;
+	text-align: center;
+	padding-top:.8em;
+	text-shadow: #99957a 1px 0 10px;
+	display: none;}
 #f0{width:25px;height:25px;    top: 490px;
     left: 104px;
 }
